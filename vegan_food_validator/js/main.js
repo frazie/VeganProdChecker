@@ -2,7 +2,7 @@
 function getFetch(){
     let inputVal = document.getElementById("barcode").value;
     console.log(inputVal.length)
-    if (inputVal.length !== 13) {
+    if (inputVal.length !== 12) {
         alert(`Please ensure that barcode length is 12 characters.`)
         return;
     }
